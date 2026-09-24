@@ -1,80 +1,118 @@
-Mall Customer Segmentation
+# Mall Customer Segmentation
 
-CODTECH Internship – Machine Learning Task 1 Intern ID: CITS9278
+## CODTECH Internship - Machine Learning Task 1
 
- Project Overview
+**Intern ID:** CITS9278
 
-This project performs customer segmentation using K-Means clustering on mall customer data.
+---
 
-The goal is to identify groups of customers based on their annual income and spending score. These customer groups can help understand different purchasing patterns and support customer-focused business strategies.
+## Project Overview
 
-🛠️ Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Seaborn
-Scikit-learn
-Plotly
-Streamlit
-Dataset
+This project performs customer segmentation using **K-Means clustering** on mall customer data.
 
-The dataset contains 200 mall customer records with the following information:
+The goal is to identify groups of customers based on their **annual income** and **spending score**. These customer groups can help understand different purchasing patterns and support customer-focused business strategies.
 
-Field	Description
-Customer ID	Unique identifier for each customer
-Gender	Male / Female
-Age	Customer's age
-Annual Income	Annual income (in $k)
-Spending Score	Score assigned based on spending behavior (1–100)
-Machine Learning Approach
+---
+
+## Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Plotly
+- Streamlit
+
+---
+
+## Dataset
+
+The dataset contains **200 mall customer records** with the following information:
+
+| Field | Description |
+|---|---|
+| Customer ID | Unique identifier for each customer |
+| Gender | Male / Female |
+| Age | Customer's age |
+| Annual Income | Annual income (in $k) |
+| Spending Score | Score assigned based on spending behavior (1-100) |
+
+---
+
+## Machine Learning Approach
 
 The project follows these steps:
 
-Data analysis
-Exploratory data analysis (EDA)
-Feature analysis
-Feature scaling
-K-Means clustering
-Cluster comparison
-Silhouette score evaluation
-Cluster profiling
-Business insights
-Interactive Streamlit dashboard
-Model
-Parameter	Value
-Algorithm	K-Means Clustering
-Number of clusters	5
-Features used	Annual Income, Spending Score
-Silhouette Score	0.5547
-Customer Segments
+1. Data analysis
+2. Exploratory Data Analysis (EDA)
+3. Feature analysis
+4. Feature scaling
+5. K-Means clustering
+6. Cluster comparison
+7. Silhouette score evaluation
+8. Cluster profiling
+9. Business insights
+10. Interactive Streamlit dashboard
+
+---
+
+## Model
+
+| Parameter | Value |
+|---|---|
+| Algorithm | K-Means Clustering |
+| Number of Clusters | 5 |
+| Features Used | Annual Income, Spending Score |
+| Silhouette Score | 0.5547 |
+
+---
+
+## Customer Segments
 
 The five identified customer groups are:
 
-Average Customers
-High-Value Customers
-High-Spending, Lower-Income Customers
-High-Income, Low-Spending Customers
-Low-Income, Low-Spending Customers
-Dashboard
+- **Average Customers**
+- **High-Value Customers**
+- **High-Spending, Lower-Income Customers**
+- **High-Income, Low-Spending Customers**
+- **Low-Income, Low-Spending Customers**
+
+---
+
+## Dashboard
 
 The project includes an interactive Streamlit dashboard with:
 
-Customer segmentation visualization
-Customer group analysis
-Customer explorer
-Cluster profiles
-Model insights
-Gender and customer-group filters
-How to Run
-1. Install the required libraries
-bash
+- Customer segmentation visualization
+- Customer group analysis
+- Customer explorer
+- Cluster profiles
+- Model insights
+- Gender and customer-group filters
+
+---
+
+## How to Run
+
+### 1. Install the required libraries
+
+```bash
 pip install -r requirements.txt
-2. Run the Streamlit dashboard
-bash
+```
+
+### 2. Run the Streamlit dashboard
+
+```bash
 streamlit run app.py
-Project Structure
-text
+```
+
+---
+
+## Project Structure
+
+```text
 Mall-Customer-Segmentation/
 ├── data/
 ├── notebooks/
@@ -84,8 +122,12 @@ Mall-Customer-Segmentation/
 ├── README.md
 ├── requirements.txt
 └── .gitignore
- Internship
+```
 
-This project was completed as part of the CODTECH IT Solutions Machine Learning Internship.
+---
 
-Intern ID: CITS9278
+## Internship
+
+This project was completed as part of the **CODTECH IT Solutions Machine Learning Internship**.
+
+**Intern ID:** CITS9278
