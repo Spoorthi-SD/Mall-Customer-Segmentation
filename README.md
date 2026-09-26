@@ -5,7 +5,11 @@
 **Intern ID:** CITS9278
 
 ---
+## Live Demo
 
+https://spoorthi-sd-mall-customer-segmentation-app-urydrx.streamlit.app/
+
+---
 ## Project Overview
 
 This project performs customer segmentation using **K-Means clustering** on mall customer data.
